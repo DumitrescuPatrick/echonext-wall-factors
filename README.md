@@ -31,10 +31,4 @@ These commands verify the delivered release and run synthetic tests. They do not
 
 The analytical code retains its original private-layout assumptions. Full clinical reproduction requires separately authorized source data, exact prior preprocessing/splits and private frozen checkpoints/PCA transformations/caches. Those artifacts are absent by design. This is not a turnkey data download pipeline, pretrained service or self-contained clinical reproduction. Do not run historical training or study launchers merely to test this repository. Importing the tested modules does not launch their guarded CLI routines.
 
-MIMIC and EchoNext have provider-specific access agreements. Obtain access directly from the relevant provider and keep restricted artifacts locally; do not add them to GitHub. The local release's hash allowlist and .gitignore are safeguards, not permission to redistribute data or a guarantee about arbitrary future additions. This ZIP contains no Git history; it cannot erase earlier online commits.
-
-## Publication and license
-
-The scientific study remains exploratory; this source release adds no clinical experiment or independent validation. Manuscript versions and research outcomes remain in separate packages. Authors must select/approve a code license and citation metadata; neither a license grant nor author/ethics/funding/conflict/AI-use declaration is invented here. No GitHub repository was created or published by this preparation.
-
-Upload only the extracted code-only folder contents, including .gitignore. Preserve earlier frozen study materials separately.
+MIMIC and EchoNext have provider-specific access agreements. Obtain access directly from the relevant provider and keep restricted artifacts locally. The local release's hash allowlist and .gitignore are safeguards, not permission to redistribute data or a guarantee about arbitrary future additions. This ZIP contains no Git history; it cannot erase earlier online commits.
