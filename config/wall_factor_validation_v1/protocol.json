@@ -1,0 +1,18 @@
+{
+  "status": "Locked follow-up plan after discovery; not retrospective preregistration or independent validation",
+  "endpoint": "lvwt_gte_13_flag",
+  "factors": [{"space":"pooled","column_zero_based":1},{"space":"temporal","column_zero_based":4}],
+  "direction": "Higher frozen score associated with greater wall-thickness flag prevalence",
+  "primary_comparison": "Both factors added to clinical, normalized waveform, ordinary covariance, context and frozen ResNet score",
+  "secondary_comparisons": "Each factor separately; penalized logistic and fixed nonlinear reference",
+  "primary_metric": "Paired AUROC difference; Brier and average precision supportive",
+  "bootstrap": {"replicates":1000,"seed":71001,"unit":"one validation patient","interval":"paired percentile 95%, conditional on fitted models"},
+  "models": {"logistic_C":1.0,"HGB_iterations":100,"HGB_leaves":15,"HGB_learning_rate":0.05,"HGB_L2":1.0},
+  "calibration": "Sigmoid fit on original training-monitor patients only",
+  "threshold": "0.20 exploratory decision probability; no clinical threshold claim",
+  "subgroups": "Recorded sex, age <65/65+, QRS <120/120+ ms, ventricular rate <60/60-100/>100, acquisition-year halves defined by fitting median, setting; no outcome-driven merging",
+  "minimum_subgroup": {"patients":100,"events":20,"nonevents":20},
+  "selection": "No factor, sign, loading, threshold, model or subgroup selection from new results",
+  "sealed": "No official test waveform, outcomes or predictions accessed",
+  "limitations": ["Original encoder selected on official validation", "Factors selected using validation associations", "Training embedding risk scores are in-sample for the supervised encoder", "No validated raw-voltage or QRS axis estimates", "No multiplicity-adjusted subgroup significance claims"]
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="640.8pt" height="424.8pt" viewBox="0 0 640.8 424.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<title>Figure 1 Study Design</title><desc>Flow diagram showing source supervised ResNet training on 72,475 ECGs from 26,218 patients; downstream fitting in 23,597 patients, monitor calibration in 2,621, and evaluation in 4,626 previously explored validation patients. The validation cohort contributed to upstream selection; no independent confirmation is shown.</desc>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-20T20:58:22.920744</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 424.8 
+L 640.8 424.8 
+L 640.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <g id="patch_2">
+     <path d="M 222.882812 66.242734 
+L 417.917187 66.242734 
+Q 423.917187 66.242734 423.917187 60.242734 
+L 423.917187 36.237266 
+Q 423.917187 30.237266 417.917187 30.237266 
+L 222.882812 30.237266 
+Q 216.882812 30.237266 216.882812 36.237266 
+L 216.882812 60.242734 
+Q 216.882812 66.242734 222.882812 66.242734 
+z
+" style="fill: #eef4f8; stroke: #2d586f; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(255.05625 44.83668)">Source supervised ResNet</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(222.882812 56.839414)">72,475 ECGs / 26,218 training patients</text>
+   </g>
+   <g id="text_2">
+    <g id="patch_3">
+     <path d="M 82.031312 197.570734 
+L 233.040687 197.570734 
+Q 239.040687 197.570734 239.040687 191.570734 
+L 239.040687 167.565266 
+Q 239.040687 161.565266 233.040687 161.565266 
+L 82.031312 161.565266 
+Q 76.031312 161.565266 76.031312 167.565266 
+L 76.031312 191.570734 
+Q 76.031312 197.570734 82.031312 197.570734 
+z
+" style="fill: #eef4f8; stroke: #2d586f; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(109.457094 176.16468)">Downstream fitting</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(82.031312 188.167414)">23,597 patients; 4,669 events</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_4">
+     <path d="M 414.117906 197.570734 
+L 552.410094 197.570734 
+Q 558.410094 197.570734 558.410094 191.570734 
+L 558.410094 167.565266 
+Q 558.410094 161.565266 552.410094 161.565266 
+L 414.117906 161.565266 
+Q 408.117906 161.565266 408.117906 167.565266 
+L 408.117906 191.570734 
+Q 408.117906 197.570734 414.117906 197.570734 
+z
+" style="fill: #eef4f8; stroke: #2d586f; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(414.117906 176.16468)">Training-monitor calibration</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(415.710875 188.167414)">2,621 patients; 480 events</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_5">
+     <path d="M 200.290625 339.004102 
+L 440.509375 339.004102 
+Q 446.509375 339.004102 446.509375 333.004102 
+L 446.509375 296.995898 
+Q 446.509375 290.995898 440.509375 290.995898 
+L 200.290625 290.995898 
+Q 194.290625 290.995898 194.290625 296.995898 
+L 194.290625 333.004102 
+Q 194.290625 339.004102 200.290625 339.004102 
+z
+" style="fill: #eef4f8; stroke: #2d586f; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(276.832031 305.595312)">Official validation</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(252.846875 317.598047)">4,626 patients; 877 events</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(200.290625 329.600781)">Previously used for checkpoint / factor selection</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 318.513803 81.737422 
+Q 238.966903 109.800387 160.474349 137.491394 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 164.911874 138.04671 
+L 160.474349 137.491394 
+L 163.581117 134.274564 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 159.422197 213.065422 
+Q 238.969097 241.128387 317.461651 268.819394 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 314.354883 265.602564 
+L 317.461651 268.819394 
+L 313.024126 269.37471 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 322.286197 81.737422 
+Q 401.833097 109.800387 480.325651 137.491394 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 477.218883 134.274564 
+L 480.325651 137.491394 
+L 475.888126 138.04671 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 481.377803 213.065422 
+Q 401.830903 241.128387 323.338349 268.819394 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 327.775874 269.37471 
+L 323.338349 268.819394 
+L 326.445117 265.602564 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #9b3b31" x="320.4" y="407.34" transform="rotate(-0 320.4 407.34)">No official test evaluation • no independent confirmation in this study</text>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "release": "code-only-v1",
+  "original_statistical_tests": "3 passed; synthetic fixtures only",
+  "release_privacy_tests": "4 passed",
+  "source_python_files": 72,
+  "original_analytical_source_and_config_unchanged": true,
+  "patient_records_included": false,
+  "patient_identifier_values_included": false,
+  "dataset_files_included": false,
+  "aggregate_result_files_included": false,
+  "manuscripts_figures_or_tables_included": false,
+  "trained_artifacts_included": false,
+  "credentials_included": false,
+  "clinical_data_accessed_for_tests": false,
+  "clinical_training_or_analysis_run": false,
+  "github_publication_performed": false,
+  "scope": "Source/configuration and release metadata only; not a legal or clinical certification"
+}

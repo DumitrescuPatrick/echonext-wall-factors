@@ -1,0 +1,442 @@
+[
+  {
+    "file": ".gitignore",
+    "bytes": 564,
+    "sha256": "9d152b2974adb81973e45dbcabda9d1ee7ebcefdfb1f4b279fcc87ebeabd0162"
+  },
+  {
+    "file": "README.md",
+    "bytes": 3561,
+    "sha256": "77327991b5387db2645b42e1e6763655e770ac13d9a28af3cd80cf6144875815"
+  },
+  {
+    "file": "audit/CODE_ONLY_SCOPE.md",
+    "bytes": 1182,
+    "sha256": "6bd08271f2faa6fb1eac71c0d42612d2140c3c73aa0fd584a356fd089f87bf38"
+  },
+  {
+    "file": "audit/ORIGINAL_CODE_HASHES.json",
+    "bytes": 9188,
+    "sha256": "8fd3238d9e9e8dc44e752ddf001b9297eaf79cf7e0c70bd7d879e9f0bf0b7514"
+  },
+  {
+    "file": "audit/RELEASE_VERIFICATION.json",
+    "bytes": 745,
+    "sha256": "1c2f6b2bafcb25dae224942e5d92ca62877d8ea244fb08e525dfe94505e3cf1c"
+  },
+  {
+    "file": "config/medical_discovery_next_phase/protocol.json",
+    "bytes": 2975,
+    "sha256": "9e08841f6845fcdd47adb83eff8542d5e4fb6cb2b9825afff08e743707a31057"
+  },
+  {
+    "file": "config/medical_discovery_next_phase/requirements.txt",
+    "bytes": 106,
+    "sha256": "46d8118e44849dda39a566c47cf9eda031b8a52f67c570ac166ee6fbc6467f1d"
+  },
+  {
+    "file": "config/stage2_v1/protocol.json",
+    "bytes": 3253,
+    "sha256": "04e68dc46dd9c8e7684f1420228d60a63cd2f4807783292f787d950fc9fe99e6"
+  },
+  {
+    "file": "config/stage2_v1/requirements.txt",
+    "bytes": 50,
+    "sha256": "4aadb746091a0e86f7fab67840f7e5edc192671de32e6e980d97abaa7f012e14"
+  },
+  {
+    "file": "config/wall_factor_validation_v1/protocol.json",
+    "bytes": 1808,
+    "sha256": "60c82a419025725c35ed040aa5c7bd2689d203ca39557f40969ee2c602dac4fc"
+  },
+  {
+    "file": "requirements-analysis.txt",
+    "bytes": 122,
+    "sha256": "a8e25fa030deeb27ef724801efa0255d63f6b2ebea794e8e31f500f05e2aead0"
+  },
+  {
+    "file": "requirements-lock.txt",
+    "bytes": 104,
+    "sha256": "6d87b9327525011de48e408d6765726cadb3dc70edd0cf548d4cd35709f766fc"
+  },
+  {
+    "file": "requirements-render.txt",
+    "bytes": 47,
+    "sha256": "3031a5f89183019278e0cf165f72798c9bdbdc8d30b49cd981d8097f8bc98dce"
+  },
+  {
+    "file": "src/echonext/__init__.py",
+    "bytes": 92,
+    "sha256": "983214f5a7dfb802708ccaf03087d88e7e77d4a29f56ed38b543c655e954b46d"
+  },
+  {
+    "file": "src/echonext/audit.py",
+    "bytes": 6763,
+    "sha256": "d2065168e3d3089d49fc446685d5ac7e01245543000005a0f1040d39a5b35e7e"
+  },
+  {
+    "file": "src/echonext/benchmark.py",
+    "bytes": 1664,
+    "sha256": "04d7058f44b8bb1cce2df9dd9f429e0ae92cfb694b7a33c3ab4216d3a056ffa0"
+  },
+  {
+    "file": "src/echonext/data.py",
+    "bytes": 5477,
+    "sha256": "d2f7a09e0c823db3197f62234a086130d78b9342994856dfee621f622b87659e"
+  },
+  {
+    "file": "src/echonext/governance.py",
+    "bytes": 4624,
+    "sha256": "a9e45e0428e217c09ec317aa545056bcb4fd3ccf6b2a0071ae17f761c9d15f36"
+  },
+  {
+    "file": "src/echonext/models.py",
+    "bytes": 7799,
+    "sha256": "652b1d4573c1389ad88786d3b69a6e4cc14469f595973c735c95d63fad7373e4"
+  },
+  {
+    "file": "src/echonext/schema.py",
+    "bytes": 714,
+    "sha256": "fe7caf96d5612fcdab805af3a24c732ecbd3eec54de09d806c7629e612c29da4"
+  },
+  {
+    "file": "src/echonext/stage2_audit.py",
+    "bytes": 4325,
+    "sha256": "7c536a019b07d4d228fb0d89c24f896c62b8aa2c9df4c6681508b6f27b9709ca"
+  },
+  {
+    "file": "src/echonext/stage2_cache.py",
+    "bytes": 1559,
+    "sha256": "1941cd0f6b4925172b702dc2f98d637bb25391890b8f11e4f808d56d6935212b"
+  },
+  {
+    "file": "src/echonext/stage2_finish.py",
+    "bytes": 8013,
+    "sha256": "ba7ee7b63f9b123cc70ac81cd2cd86195a0d2e0dc3712cf36aea66fa4288d1c3"
+  },
+  {
+    "file": "src/echonext/stage2_geometric.py",
+    "bytes": 6866,
+    "sha256": "00015f42e99624c98395950d66d0ec38c978b4f04dffbcd7e502b37d0dbdd48d"
+  },
+  {
+    "file": "src/echonext/stage2_metrics.py",
+    "bytes": 2348,
+    "sha256": "3cd03efe0feab316d228ec6b58976b720be6cbd9d668a91d71bb57f4b835d3ce"
+  },
+  {
+    "file": "src/echonext/stage2_models.py",
+    "bytes": 1247,
+    "sha256": "0a3fce6021cd9e1f2cc5227fff3b6e53731a0f0b382848adc492f75f28aa4936"
+  },
+  {
+    "file": "src/echonext/stage2_pipeline.py",
+    "bytes": 1132,
+    "sha256": "0f96815dd6c1a9745bc3caec7303c69b64668d580a85660a0788c2ceb6c24b31"
+  },
+  {
+    "file": "src/echonext/stage2_progress.py",
+    "bytes": 715,
+    "sha256": "dee0ddde7cf2c7c41cc16b8daa4ab297a25a8de0b89c477d54026bff9f35e7f3"
+  },
+  {
+    "file": "src/echonext/stage2_report.py",
+    "bytes": 14728,
+    "sha256": "3dc069dbcc045057e420fbfd993c0a0c573b8d8fcb053dc3a256cf7fe120a130"
+  },
+  {
+    "file": "src/echonext/stage2_train.py",
+    "bytes": 8023,
+    "sha256": "9832de4365f508e4b6540fb3902879b889c0ed907233eff5b82ec6a842cd08f8"
+  },
+  {
+    "file": "src/echonext_covariance_validation_v1/__init__.py",
+    "bytes": 110,
+    "sha256": "f9ea6e3c7ae175fbf88cbd154f352b92497d66a281cd7f9a6e50c35cfb68f092"
+  },
+  {
+    "file": "src/echonext_covariance_validation_v1/analysis.py",
+    "bytes": 1043,
+    "sha256": "a5602e9e3e5ca56bc9b9d37237c679ffd50fa39af0b1c77235d88ad3f2285f05"
+  },
+  {
+    "file": "src/echonext_covariance_validation_v1/export.py",
+    "bytes": 4533,
+    "sha256": "8502de4e6e48f2bafba5965c53bff4b1b348f800779b3d41d84da7944d8d3b98"
+  },
+  {
+    "file": "src/echonext_covariance_validation_v1/freeze.py",
+    "bytes": 2101,
+    "sha256": "037d768cbf68cea0b664276edbf6b6a0b9be2e8bdfe271a6a4fc6b84ac548137"
+  },
+  {
+    "file": "src/echonext_covariance_validation_v1/fusion.py",
+    "bytes": 6056,
+    "sha256": "fd9e0e6c7ffd07407f8ae0c9d31bfc87816fd5cc2023503ac24b8e377491e703"
+  },
+  {
+    "file": "src/echonext_covariance_validation_v1/lead_sensitivity.py",
+    "bytes": 2219,
+    "sha256": "e58e6be8935284f594de7a118c358cf1d8874cb809664736c8c0e42477290a68"
+  },
+  {
+    "file": "src/echonext_covariance_validation_v1/report.py",
+    "bytes": 7485,
+    "sha256": "a80d750680912210dda388cbf7e7f0301db414807a3804a84c70688628064835"
+  },
+  {
+    "file": "src/echonext_covariance_validation_v1/stress.py",
+    "bytes": 5278,
+    "sha256": "b3c1d1ad7c0a41adf33d10e0a5e0d7c00622de7e019a847829cae7d31f53dee7"
+  },
+  {
+    "file": "src/echonext_covariance_validation_v1/strict_interface.py",
+    "bytes": 1908,
+    "sha256": "530e56cbd57cd320cb998c29bd827c8744901a9cc52451951ba36c97de3053ab"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/__init__.py",
+    "bytes": 104,
+    "sha256": "e97d80cf9f5376c0241f79143522e284d71bb53e532ba06113a2098bb53de19b"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/associate.py",
+    "bytes": 6848,
+    "sha256": "13254fd6e87b7b6e01c38f5afa79a9607e5fa3329a03fd1b5a92c2e81ae4d09d"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/component_reference.py",
+    "bytes": 4958,
+    "sha256": "31c473354899d20fe49ae8faa86aae58366d39eeb668608497b6b3ed564869a1"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/diagnostics.py",
+    "bytes": 5044,
+    "sha256": "b5425946ac47bb4beac2a0d8c468470a028977ed4bd181e439b6cd64ca496df1"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/export.py",
+    "bytes": 5001,
+    "sha256": "d168535fe975ee1ad80094bee04e5302aa4715ed1e014375f33a54d677cf5895"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/latent.py",
+    "bytes": 10393,
+    "sha256": "442287f1d69c311b3873f490bba5b1b4fbb9aa6bdfdd5343af9132028901f216"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/models.py",
+    "bytes": 2626,
+    "sha256": "d2ab7ac3554950dd808da5f19e0efb1d5b2826624f2ff40830d79bffe3f07e0a"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/mps_smoke.py",
+    "bytes": 1702,
+    "sha256": "ccb88dfc8c45481368b126e9ad5d3e99ee39e4a0ee316a3e4690138dc5802579"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/physiology_gates.py",
+    "bytes": 1195,
+    "sha256": "a85ffb787342997351efaf987f0040f554fd36a7093fe69b7b02d42791111477"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/readiness.py",
+    "bytes": 1274,
+    "sha256": "0e28bb204f5698a283c83e7ad76d65c282446520852136f6de19a90cb78650e3"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/report.py",
+    "bytes": 11722,
+    "sha256": "ce69122d2f11f84626e67ab6ab3e4ac545693ae901e02f047158dce83216cbc4"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/train.py",
+    "bytes": 6005,
+    "sha256": "cc2b91f1fcc67055a7d15ee1a75c2ae8e96d988f348b6f0a2162f91cea1e920e"
+  },
+  {
+    "file": "src/echonext_medical_discovery_v2/unit_transport.py",
+    "bytes": 7543,
+    "sha256": "ca5036acd18f9868eb7ccd3071039100456ee9f1f2b81122ecae81d27218b3ff"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/__init__.py",
+    "bytes": 106,
+    "sha256": "b241dc8712cadd8d19eab5581c4a20c4b1fdf01923c9bf16ce57f4c27f4651c0"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/adjusted.py",
+    "bytes": 3690,
+    "sha256": "5395da5fc15f86b7e61d89358c85d62216abe0129b636a6545a9aa543a6d995c"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/associations.py",
+    "bytes": 3109,
+    "sha256": "8940c0e80e5fdced8fdb163f55adbba877e6b305ccc436d874b5c37f469765e6"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/audit_patterns.py",
+    "bytes": 2847,
+    "sha256": "f7f3c38322146aef6c6352bf7b4caf74afdb07d81b5624b3829e0695fed8258a"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/components.py",
+    "bytes": 1933,
+    "sha256": "6dcd7b5aba876452ad7d2ac0c83319efa1ecf35f9619a990791a3f2947724a15"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/data.py",
+    "bytes": 3123,
+    "sha256": "c9d125205051c0cebcbcf31b1ab1e9d3cae4fb8537bc17aec462ad3bd60f5db7"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/features.py",
+    "bytes": 1181,
+    "sha256": "c63e94ad1a57ab92a3bb09435548e1416fab5b31389d9b55de795641b5ec8c51"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/gpu_benchmark.py",
+    "bytes": 1620,
+    "sha256": "5fd592af91333d54b1feecaf93503c72441280f0f2eaf5b3f5e046412ebdab81"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/models.py",
+    "bytes": 3639,
+    "sha256": "60eda9a5ba16eaac5b3f7b13aa482b6dfb9dbc55a6ad0d6863051a841072ee99"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/native_patterns.py",
+    "bytes": 1734,
+    "sha256": "8f51e5d838471675d54344a29ef57d5d43443bea1bcbf451a3abb02def37671c"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/phase1_audit.py",
+    "bytes": 14889,
+    "sha256": "71ca955a298ab5aaa93c16ee070ac9fbc3027beaae034b1c6d108822662af871"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/phase1_figures.py",
+    "bytes": 5069,
+    "sha256": "d3599c1e5960df8dca3a7ea8cf3aa138389059b085bf0a1d1b482906e8b64145"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/phase1_precision_qc.py",
+    "bytes": 2171,
+    "sha256": "434786a4047d88e579afa796149cc452637a2be44011c3edfe5b0595a57d2738"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/phase1_schema.py",
+    "bytes": 2450,
+    "sha256": "6c12db361a9ddbf889e9c021b7916b994ee3c54b4f90f4a900de1515ec3770cc"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/phase1_supplement.py",
+    "bytes": 5305,
+    "sha256": "4ba6a223b7da20219f831981bbe7a280c73a308691af40f9adacccbae258f0fb"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/pipeline.py",
+    "bytes": 12746,
+    "sha256": "3d0a10a98cb457b19af93fd057d29179ca706ffbd4c64545162067d634bfa1c4"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/probe.py",
+    "bytes": 2320,
+    "sha256": "3eb18cc60466c6f2dca69ba692051d3e66daab93b28b91e2a29b6ba4f9dbcbcc"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/publication.py",
+    "bytes": 5608,
+    "sha256": "b4fc4d81aac5fab45e0078c622fdabbb3f5c4d5145b6c2be58cc095971def00c"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/questions_associations.py",
+    "bytes": 5047,
+    "sha256": "2845e816a9d58075fa4f7a2e26f912e8d8a9030aac7f079a5e7c3dfe828572d6"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/questions_common.py",
+    "bytes": 4053,
+    "sha256": "34ec877b1e970a8461c382d15f2070c460819524e4214e01c14bbca3dc52b817"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/questions_document.py",
+    "bytes": 4453,
+    "sha256": "ff237683edc550e66a1be776dac40f700b53c09e9361b937a4a33a63d1a15a6d"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/questions_euclidean.py",
+    "bytes": 4808,
+    "sha256": "3bc316ef603c6eab009622911a37d29bb7c9a4db03134b24b1712e21a7d6f1a3"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/questions_interpretation.py",
+    "bytes": 4358,
+    "sha256": "1508160fafa0012387d35b2d8d8f1b81bfa8f0ba3df82c4ce99a9839aa4f6942"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/questions_prediction.py",
+    "bytes": 8122,
+    "sha256": "8ad4fabed33f8cca5d6934d8e151e7663a9d185a9aa712f4bed89d6620167a3d"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/questions_report.py",
+    "bytes": 7806,
+    "sha256": "d6a66e763c77c78a06c1466c19c930bb4ebfa5add79de881dc2fc250a7589e0b"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/report.py",
+    "bytes": 5532,
+    "sha256": "6806da1959aa2dbc99c659e6f8f33428b98fc7d0bef782f3414b709bd08f9f3a"
+  },
+  {
+    "file": "src/echonext_unsupervised_discovery_v1/stability.py",
+    "bytes": 1743,
+    "sha256": "1bfcd20731c41d22c15f7b2078eb9024510d334b0612345dfb94f9b5a48e1c44"
+  },
+  {
+    "file": "src/echonext_wall_factor_validation_v1/__init__.py",
+    "bytes": 82,
+    "sha256": "e4d124aa1927734b8ca70de406bfff0724620a9b7abaa6938c77e6fd3dc0cb58"
+  },
+  {
+    "file": "src/echonext_wall_factor_validation_v1/associations.py",
+    "bytes": 3220,
+    "sha256": "52841cc7adf5aa679aa1436a4524168b3bc522d20b27d59fdfc3ae368e6e427a"
+  },
+  {
+    "file": "src/echonext_wall_factor_validation_v1/cli.py",
+    "bytes": 452,
+    "sha256": "c5fbfbed350b79b21531afc5f55fc7bb9ffe67aa403e0ee31c907f3c077493f2"
+  },
+  {
+    "file": "src/echonext_wall_factor_validation_v1/export.py",
+    "bytes": 3099,
+    "sha256": "558312d3cc7352b5d0a9d4726fc4eb88379be2f6ea8014c956f7eb3afdb24722"
+  },
+  {
+    "file": "src/echonext_wall_factor_validation_v1/report.py",
+    "bytes": 18284,
+    "sha256": "b489caa43d635a7fc3bef728292ace93f7a041fe2d97a8067cedd157b3b18bc8"
+  },
+  {
+    "file": "src/echonext_wall_factor_validation_v1/run.py",
+    "bytes": 9162,
+    "sha256": "0633fda960e5db0da284eda9399d0b8d18e89b58b163c4f950175d1eeebcafa8"
+  },
+  {
+    "file": "tests/release/test_release.py",
+    "bytes": 935,
+    "sha256": "396a40667d629b15ebf6cdeb7de7682985791165825e9aaedfccf5bd98867047"
+  },
+  {
+    "file": "tests/statistics/test_statistics.py",
+    "bytes": 1339,
+    "sha256": "5bc33d0f410c06dd3b129ef08a8c9375932c2032f997b61874d949742d21edc6"
+  },
+  {
+    "file": "tools/verify_code_only.py",
+    "bytes": 2631,
+    "sha256": "facc61d40fed1647a166801f41bbb522d9788cb8606c640aa9fb53b464809284"
+  }
+]

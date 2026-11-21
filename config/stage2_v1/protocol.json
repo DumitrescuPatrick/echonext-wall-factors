@@ -1,0 +1,67 @@
+{
+  "version": "stage2-v1; explicit amendment before any real fitting",
+  "target": "shd_moderate_or_greater_flag",
+  "train": "all 72475 official-train ECGs; inverse patient ECG-count weights",
+  "validation": "all 4626 official validation patients; stopping, architecture/regularization selection, descriptive calibration and thresholds",
+  "test": "sealed; no labels/predictions/performance accessed",
+  "amendments_to_stage1": [
+    "User explicitly requests official validation for early stopping and thresholds: replace train-internal fit/stop/calibration roles for this version",
+    "Primary comparator becomes the selected standard ResNet rather than CNN for geometric comparisons",
+    "Six architecture/regularization candidates instead of Stage 1's fixed architecture with 2x3 LR/weight-decay grid",
+    "Microbatch 64, accumulation 1, common for future comparisons",
+    "Stage 1 files, sources and outputs remain unchanged"
+  ],
+  "architectures": [
+    {
+      "width": 8
+    },
+    {
+      "width": 16
+    }
+  ],
+  "regularization_candidates": [
+    {
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001
+    },
+    {
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0001
+    },
+    {
+      "learning_rate": 0.001,
+      "weight_decay": 0.001
+    }
+  ],
+  "trials_per_family": 6,
+  "max_epochs": 20,
+  "minimum_epochs": 5,
+  "patience": 3,
+  "min_auc_delta": 0.0001,
+  "selection": "highest validation AUC; ties within 1e-4 resolve by Brier then listed candidate index",
+  "optimizer": "AdamW; gradient norm clipping 1; cosine LR from initial to 10% over 20 epochs",
+  "tuning_seed": 52001,
+  "final_seeds": [
+    53001,
+    153001,
+    253001,
+    353001,
+    453001
+  ],
+  "batch_size": 64,
+  "cpu_threads": 1,
+  "device": "cpu",
+  "precision": "float32 batches copied from read-only float64 mmap",
+  "normalization": "retain delivered per-lead normalized values; no refiltering or learned rescaling",
+  "seed_streams": "torch initialization seed; independent numpy epoch permutation stream",
+  "calibration": "native risk is primary; calibration intercept/slope descriptive; cross-fitted validation sigmoid is secondary, with selection optimism retained",
+  "operating_points": "90% and 95% sensitivity and specificity targets on validation; thresholds frozen for future test; apparent and cross-fitted validation threshold assessments labelled separately",
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed": 55001,
+  "intervals": "paired patient-only and crossed patient-by-seed percentile intervals; conditional on selected/fitted models, not unbiased after validation selection",
+  "benchmark": "published EchoNext-Mini AUROC 0.820 CI 0.809-0.831 is contextual test performance, never a paired validation comparator",
+  "geometric_training": "not started until baseline freeze; prepare same population/validation roles, six-trial budgets, five seeds, architecture parameter cap and measured total-compute caps",
+  "registration": "local prespecification, not prospective registration",
+  "maximum_concurrent_workers": 2,
+  "compute_accounting": "single-thread CPU process-time including setup, training, validation and checkpointing; wall time and RSS separately; future strict-compute caps fixed from frozen baseline"
+}
